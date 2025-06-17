@@ -10,5 +10,5 @@ from calc import add
 
 def test_example_string_returns_zero():
     assert add("") == 0  # uncomment to test
-    assert type(add("1") == int) 
+    assert add("1") == "1"
     pass
