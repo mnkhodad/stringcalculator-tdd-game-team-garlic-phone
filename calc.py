@@ -3,4 +3,4 @@
 def add(numbers):
     if numbers == "":
         return 0
-    return 42
+    return int(numbers)
