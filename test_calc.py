@@ -11,4 +11,5 @@ from calc import add
 def test_example_string_returns_zero():
     assert add("") == 0  # uncomment to test
     assert add("1") == "1"
+    assert add("1,2") == "3"
     pass
